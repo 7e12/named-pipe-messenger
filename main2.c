@@ -18,7 +18,7 @@
 int main(void) {
     int fd;
     char writeArr[ARRAY_SIZE], readArr[ARRAY_SIZE];
-    char *mFIFO = "/tmp/mFIFO";
+    char *mFIFO = "/tmp/myfifo";
 
     while (1)
     {
